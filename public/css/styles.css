@@ -1,0 +1,92 @@
+html, body {
+    background-color: beige;
+    margin:0;
+}
+  
+.body { 
+    align-items: center; 
+    background-color: beige;
+}
+  
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: beige;
+}
+
+.carousel-box {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: beige;
+}
+  
+.button-box {
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+  
+.h1 {
+    align-self: center;
+}
+  
+.navbar {
+    background-color: green;
+}
+  
+.row {
+    background-color: beige;
+}
+
+.carousel {
+    background-color: beige;
+}
+
+.container {
+    background-color: beige;
+    width: 30%;
+    height: 40%;
+    padding-bottom: 50px;
+}
+  
+.logo {
+    width: 40%;
+    height: 40%;
+}
+
+.navbar-links {
+    justify-content: right;
+}
+
+@media (min-width: 800px) {
+    .logo {
+        width: 25%;
+        height: 25%;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 40%;
+        height: 40%;
+    }
+    .navbar-links {
+        visibility: hidden;
+    }
+}
+
+@media (min-width: 800px) {
+    .navbar-toggler {
+        visibility: hidden;
+    }
+    .collapse {
+        visibility: hidden;
+    }
+}
